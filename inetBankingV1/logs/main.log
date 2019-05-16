@@ -1,0 +1,4 @@
+2019-04-15 23:55:45,803 -0700 [main] INFO  (TC_LoginTest_001.java:13) - URL is opened
+2019-04-15 23:55:48,495 -0700 [main] INFO  (TC_LoginTest_001.java:16) - Username Entered
+2019-04-15 23:55:48,643 -0700 [main] INFO  (TC_LoginTest_001.java:18) - Password Entered
+2019-04-15 23:55:52,266 -0700 [main] INFO  (TC_LoginTest_001.java:22) - Login test passed

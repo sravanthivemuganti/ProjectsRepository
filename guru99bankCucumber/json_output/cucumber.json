@@ -1,0 +1,426 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login with Valid Username and Password",
+        "description": "",
+        "id": "myaccount-login-feature;login-with-valid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18919119400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17896029800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the url \"http://www.demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.demo.guru99.com/V4/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 342134500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username \"mngr290100\" and password \"ehunurY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr290100\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"ehunurY\"",
+                  "offset": 41
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 687813600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on login Button",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.click_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 773237000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify login",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.verify_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2748053100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login with Valid Username and Password",
+        "description": "",
+        "id": "myaccount-login-feature;login-with-valid-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5842011200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3234002500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the url \"http://www.demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.demo.guru99.com/V4/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175655800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username \"mngr190180\" and password \"ehunurY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr190180\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"ehunurY\"",
+                  "offset": 41
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 739471600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on login Button",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.click_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494217800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify login",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.verify_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 541053400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Login with Valid Username and Password",
+        "description": "",
+        "id": "myaccount-login-feature;login-with-valid-username-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7220426400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5084803700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the url \"http://www.demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.demo.guru99.com/V4/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168890900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username \"mngr190100\" and password \"ehunurY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr190100\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"ehunurY\"",
+                  "offset": 41
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2157610500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on login Button",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.click_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1476524200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify login",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.verify_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 710203100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Login with Valid Username and Password",
+        "description": "",
+        "id": "myaccount-login-feature;login-with-valid-username-and-password;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9580124700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4551909000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the url \"http://www.demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.demo.guru99.com/V4/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_the_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286207400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                }
+              ],
+              "location": "MyAccountLoginStepDefinitions.enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 393627400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on login Button",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.click_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: User or Password is not valid): User or Password is not valid\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027DESKTOP-KERRSTN\u0027, ip: \u002710.1.10.242\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d27.0.1, platform\u003dWINDOWS, browserConnectionEnabled\u003dtrue, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 9389081e-6878-4106-9fd9-785ec4782dbc\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)\r\n\tat stepDefinition.MyAccountLoginStepDefinitions.verify_login(MyAccountLoginStepDefinitions.java:53)\r\n\tat ✽.Verify login(Features/Login.feature:10)\r\n",
+              "duration": 165565000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Verify login",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.verify_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Close the Browser",
+            "match": {
+              "location": "MyAccountLoginStepDefinitions.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Myaccount-Login Feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "myaccount-login-feature",
+    "keyword": "Feature",
+    "uri": "Features/Login.feature",
+    "tags": []
+  }
+]

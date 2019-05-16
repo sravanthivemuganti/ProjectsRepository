@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.apex.testng.my_selenium_testng_tests.EcommerceUserloginPage">
+        <methods>
+          <include name="loginWithInvalidCredentials"/>
+          <include name="loginWithBlankPassword"/>
+          <include name="endTest"/>
+          <include name="loginWithBlankUserId"/>
+          <include name="loginWithValidCredentials"/>
+          <include name="loginTest"/>
+          <include name="loginWithBlank"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.EcommerceUserloginPage -->
+      <class name="com.apex.testng.my_selenium_testng_tests.FacebookSignupAccount">
+        <methods>
+          <include name="startTest"/>
+          <include name="firstName"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.FacebookSignupAccount -->
+      <class name="com.apex.testng.my_selenium_testng_tests.NewTest">
+        <methods>
+          <include name="loginUser"/>
+          <include name="endTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.NewTest -->
+      <class name="com.apex.testng.my_selenium_testng_tests.EcommerceUserLostpassword">
+        <methods>
+          <include name="lostPasswordSendInvalidMail1"/>
+          <include name="lostPasswordSendInvalidMail2"/>
+          <include name="checkLostPassword"/>
+          <include name="lostPasswordSendMail"/>
+          <include name="endTest"/>
+          <include name="lostPasswordClick"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.EcommerceUserLostpassword -->
+      <class name="com.apex.testng.my_selenium_testng_tests.EcommerceUserloginPageNew">
+        <methods>
+          <include name="endTest"/>
+          <include name="loginWithBlank"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.EcommerceUserloginPageNew -->
+      <class name="com.apex.testng.my_selenium_testng_tests.GmailLoginAccount">
+        <methods>
+          <include name="firstNameTextBox"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.GmailLoginAccount -->
+      <class name="com.apex.testng.my_selenium_testng_tests.EcommerceSignupPage">
+        <methods>
+          <include name="endTest"/>
+          <include name="loginTest"/>
+          <include name="signupPage"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.EcommerceSignupPage -->
+      <class name="com.apex.testng.my_selenium_testng_tests.EcommerceWishList">
+        <methods>
+          <include name="myWishList"/>
+          <include name="endTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.EcommerceWishList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

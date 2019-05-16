@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="84.195368">
+<testcase classname="Myaccount-Login Feature" name="Login with Valid Username and Password" time="41.371837">
+<system-out><![CDATA[Given open Browser..........................................................passed
+When Enter the url "http://www.demo.guru99.com/V4/".........................passed
+And Enter username "mngr290100" and password "ehunurY"......................passed
+And Click on login Button...................................................passed
+Then Verify login...........................................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Myaccount-Login Feature" name="Login with Valid Username and Password 2" time="11.026723">
+<system-out><![CDATA[Given open Browser..........................................................passed
+When Enter the url "http://www.demo.guru99.com/V4/".........................passed
+And Enter username "mngr190180" and password "ehunurY"......................passed
+And Click on login Button...................................................passed
+Then Verify login...........................................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Myaccount-Login Feature" name="Login with Valid Username and Password 3" time="16.818787">
+<system-out><![CDATA[Given open Browser..........................................................passed
+When Enter the url "http://www.demo.guru99.com/V4/".........................passed
+And Enter username "mngr190100" and password "ehunurY"......................passed
+And Click on login Button...................................................passed
+Then Verify login...........................................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Myaccount-Login Feature" name="Login with Valid Username and Password 4" time="14.978021">
+<failure message="org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: User or Password is not valid): User or Password is not valid&#10;Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'&#10;System info: host: 'DESKTOP-KERRSTN', ip: '10.1.10.242', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=27.0.1, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 9389081e-6878-4106-9fd9-785ec4782dbc&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)&#13;&#10;&#9;at stepDefinition.MyAccountLoginStepDefinitions.verify_login(MyAccountLoginStepDefinitions.java:53)&#13;&#10;&#9;at ✽.Verify login(Features/Login.feature:10)&#13;&#10;"><![CDATA[Given open Browser..........................................................passed
+When Enter the url "http://www.demo.guru99.com/V4/".........................passed
+And Enter username "" and password "".......................................passed
+And Click on login Button...................................................passed
+Then Verify login...........................................................failed
+And Close the Browser.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: User or Password is not valid): User or Password is not valid
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-KERRSTN', ip: '10.1.10.242', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=27.0.1, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9389081e-6878-4106-9fd9-785ec4782dbc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)
+	at stepDefinition.MyAccountLoginStepDefinitions.verify_login(MyAccountLoginStepDefinitions.java:53)
+	at ✽.Verify login(Features/Login.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

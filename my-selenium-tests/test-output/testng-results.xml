@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36681" started-at="2019-04-20T00:04:07Z" finished-at="2019-04-20T00:04:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36681" started-at="2019-04-20T00:04:07Z" finished-at="2019-04-20T00:04:44Z">
+      <class name="com.apex.test.samples.EcoomerceUserLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.apex.test.samples.EcoomerceUserLogin@18be83e4]" name="setupTest" is-config="true" duration-ms="18286" started-at="2019-04-20T00:04:07Z" finished-at="2019-04-20T00:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="loginWithBlank()[pri:0, instance:com.apex.test.samples.EcoomerceUserLogin@18be83e4]" name="loginWithBlank" duration-ms="2718" started-at="2019-04-20T00:04:25Z" finished-at="2019-04-20T00:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlank -->
+        <test-method status="PASS" signature="loginWithBlankPassword()[pri:0, instance:com.apex.test.samples.EcoomerceUserLogin@18be83e4]" name="loginWithBlankPassword" duration-ms="5453" started-at="2019-04-20T00:04:28Z" finished-at="2019-04-20T00:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankPassword -->
+        <test-method status="PASS" signature="loginWithBlankUserId()[pri:0, instance:com.apex.test.samples.EcoomerceUserLogin@18be83e4]" name="loginWithBlankUserId" duration-ms="2576" started-at="2019-04-20T00:04:33Z" finished-at="2019-04-20T00:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankUserId -->
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:0, instance:com.apex.test.samples.EcoomerceUserLogin@18be83e4]" name="loginWithInvalidCredentials" duration-ms="2587" started-at="2019-04-20T00:04:36Z" finished-at="2019-04-20T00:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method status="PASS" signature="loginWithInvalidEmail()[pri:0, instance:com.apex.test.samples.EcoomerceUserLogin@18be83e4]" name="loginWithInvalidEmail" duration-ms="2185" started-at="2019-04-20T00:04:39Z" finished-at="2019-04-20T00:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmail -->
+        <test-method status="PASS" signature="loginWithValidCredentials()[pri:0, instance:com.apex.test.samples.EcoomerceUserLogin@18be83e4]" name="loginWithValidCredentials" duration-ms="2786" started-at="2019-04-20T00:04:41Z" finished-at="2019-04-20T00:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+      </class> <!-- com.apex.test.samples.EcoomerceUserLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

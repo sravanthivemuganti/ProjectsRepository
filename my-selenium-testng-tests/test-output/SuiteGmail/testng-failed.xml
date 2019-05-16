@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteGmail]">
+  <test thread-count="5" name="TestGmail(failed)">
+    <classes>
+      <class name="com.apex.testng.my_selenium_testng_tests.GmailLoginAccount">
+        <methods>
+          <include name="firstNameTextBox"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.apex.testng.my_selenium_testng_tests.GmailLoginAccount -->
+    </classes>
+  </test> <!-- TestGmail(failed) -->
+</suite> <!-- Failed suite [SuiteGmail] -->
